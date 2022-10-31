@@ -1,0 +1,22 @@
+
+.productListContainer {
+  width: 100%;
+
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #FFCC26;
+    border: 15px solid #FFCC26;
+    border-radius: 15px;
+    height: 60px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(65, 65, 65, 0.3);
+  }
+
+}
+
+

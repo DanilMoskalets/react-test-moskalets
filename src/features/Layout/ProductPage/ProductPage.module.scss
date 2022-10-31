@@ -1,0 +1,62 @@
+
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 350px;
+
+
+  .imageBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+
+    .ImageProduct {
+      width: 350px;
+      height: 350px;
+    }
+
+    .iconBtn {
+      width: 48px !important;
+      height: 48px !important;
+    }
+
+  }
+
+  .productDescription {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .productDescriptionPrice {
+
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+
+      .favoriteIcon {
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+      }
+
+      .favoriteIconActive {
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        background-color: #414141;
+      }
+    }
+
+  }
+}
+
+
+

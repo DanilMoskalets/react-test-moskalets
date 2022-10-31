@@ -1,0 +1,41 @@
+.Item {
+  width: 242px;
+  height: 350px;
+  padding: 15px;
+  margin: 0 25px 40px 0 !important;
+  border: 3px dashed #414141;
+  border-radius: 30px;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+
+  .ItemImg {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 10px;
+    color: #414141;
+  }
+
+  .ItemDescription {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+
+
+    .favoriteIcon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+    }
+
+    .favoriteIconActive {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background-color: #414141;
+    }
+  }
+}
